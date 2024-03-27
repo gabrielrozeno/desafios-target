@@ -1,4 +1,4 @@
-function pertenceSequenciaFibonacci(number) {
+function belongsToFibonacciSequence(number) {
   let a = 0;
   let b = 1;
 
@@ -16,7 +16,7 @@ function pertenceSequenciaFibonacci(number) {
   return false;
 }
 
-function calcularSequenciaFibonacci(limit) {
+function calculateFibonacciSequence(limit) {
   let a = 0;
   let b = 1;
 
@@ -33,7 +33,7 @@ function calcularSequenciaFibonacci(limit) {
 }
 
 let number = 6;
-if (pertenceSequenciaFibonacci(number)) {
+if (belongsToFibonacciSequence(number)) {
   console.log(number + " pertence à sequência de Fibonacci.");
 } else {
   console.log(number + " não pertence à sequência de Fibonacci.");
